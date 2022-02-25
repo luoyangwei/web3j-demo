@@ -8,3 +8,5 @@
 /httpRequests/
 
 *.iml
+.idea
+web3j-demo.iml
