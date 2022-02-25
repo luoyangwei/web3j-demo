@@ -17,9 +17,9 @@ public class Web3jDemoMain {
     public static void main(String[] args) {
 
         // 创建web3j服务
-        web3j = Web3j.build(new HttpService(Environment.RPC_SERVER_URL));
+        web3j = Web3j.build(new HttpService(com.luoyangwei.web3j.demo.Environment.RPC_SERVER_URL));
 
-        // 版本服务
+        // 版本服务 v1
         Web3jVersionService versionService = new Web3jVersionService(web3j);
         LOG.info("clientVersion: {}", versionService);
 
